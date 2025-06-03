@@ -335,22 +335,12 @@ nav .navbar-brand:hover {
     background-color: #146c43;
   }
   
-
-
   #parceiros h2 {
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 5rem;
     color: #1a1a1a;
-}
-
-#Produtos h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 1rem;
-  color: #1a1a1a;
 }
 
 #ComoAjudar h2 {
@@ -494,4 +484,9 @@ nav .navbar-brand:hover {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: var(--button-color) !important; 
+
 }

@@ -79,6 +79,29 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const swiper = new Swiper('.storiesSwiper', {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    loop: true,
+    breakpoints: {
+      992: {
+        slidesPerView: 3
+      },
+      768: {
+        slidesPerView: 2
+      },
+      0: {
+        slidesPerView: 1
+      }
+    }
+  });
+});
+
 
 
 
